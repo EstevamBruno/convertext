@@ -1,0 +1,84 @@
+.text-area {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-area textarea {
+  width: 80vw;
+  height: 30vh;
+  padding: 10px;
+  border-radius: 8px;
+  resize: none;
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+}
+
+.text-area textarea:focus {
+  box-shadow: 0 0 1px 1px #8661c1;
+}
+
+.text-area .info-text {
+  width: 80vw;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.actions-area {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actions-area .actions {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actions-area .actions .action {
+  width: 20%;
+  max-width: 150px;
+  height: 50px;
+  background: #8661c1;
+  color: #fff;
+  padding: 0 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 0;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: opacity 0.2s;
+}
+
+.actions-area .actions .clear {
+  background: #fe5f55;
+}
+
+.actions-area .action:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .actions-area .actions {
+    flex-wrap: wrap;
+  }
+
+  .actions-area .actions .action {
+    font-size: 14px;
+    line-height: 20px;
+    width: 80px;
+    font-weight: 600;
+  }
+}

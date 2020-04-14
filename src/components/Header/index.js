@@ -7,7 +7,7 @@ export default function Header() {
     <>
       <div className="header-container">
         <div className="content">
-          <h1>Convertexto</h1>
+          <h1>Convertext</h1>
           <span>Transforme seu texto com apenas um click.</span>
         </div>
         <a target="_blank" href="https://github.com/EstevamBruno">
